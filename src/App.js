@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import FormComponent from "./components/FormComponent";
 import Header from "./components/Header";
 import MyComponent from "./components/MyComponent";
+import ThemeSwitcher from "./ThemeSwitcher";
 import UserProfile from "./components/UserProfile";
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <EventHandling />
 
       <FormComponent />
+
+      <ThemeSwitcher />
 
       <Footer />
     </div>
